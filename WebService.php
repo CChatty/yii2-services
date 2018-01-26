@@ -7,7 +7,7 @@
 
 namespace conquer\services;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\base\Application;
 use yii\web\Response;
 
@@ -337,7 +337,7 @@ class SoapObjectWrapper
  * @author Jan Was <jwas@nets.com.pl>
  * @package system.web.services
  */
-class DocumentSoapObjectWrapper extends Object
+class DocumentSoapObjectWrapper extends BaseObject
 {
     /**
      * @var object the service provider
